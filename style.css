@@ -4,5 +4,57 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+}
 
+nav{
+    height: 80px;
+    display: flex;
+}
+
+.nav__container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 160px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav__link{
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 20px;
+    color: #7342d6;
+    font-weight: bold;
+    padding: 16px;
+}
+
+.nav__link:hover{
+   text-decoration: underline; 
+}
+
+.nav__link--primary{
+    border: 2px solid #7342d6;
+    border-radius: 4px;
+}
+
+.nav__link--primary:hover{
+    text-decoration: none;
+}
+
+#landing{
+    background-color: rgb(115, 66, 214, 0.1);
 }
